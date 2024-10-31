@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ 
+ <style>
+ body {
+	background-color:#cccccc;
+	background-image:url("aa.jpg");
+	color:blue;
+	margin-top:30px;
+	margin-left:100px;
+ }
+ 
+ a:hover {   /*마우스를 올려놓았을 때의 상태*/
+	color:#00ccff;
+ }
+ a:link {    /*링크 색상*/
+	color:green;
+ }
+ a:visited { /*링크를 클릭하여 방문했던 상태*/
+	color:red;
+ }
+ a:active {  /*마우스 클릭 순간의 색상*/
+	color:blue;
+ }
+ 
+ </style>
+ 
+ <body>
+  
+  <font size="7"><i>html</i></font> &nbsp;
+  <span style="font-style:italic;font-size:50px;">html</span>
+  
+  <br><br>
+  
+  <!-- 링크 주소가 없는 경우 #을 이용하여 페이지 이동을 방지한다. -->
+  <a href="http://linux.com">리눅스</a> &nbsp;
+  
+  <!-- 현재 페이지에서 링크 주소화면이 열림 -->
+  <a href="http://naver.com">네이버</a> &nbsp; 
+  
+  <!-- title : 웹접근성에 관한 속성 -->
+  <!-- target : 다른(또는 새로운) 페이지에서 링크 주소화면이 열림 -->
+  <a href="http://google.com" target="_blank" title="구글사이트">구글</a>
+  
+  <!-- 이미지를 링크하여 화면이동 가능 -->
+  <a href="http://google.com" target="_blank" title="구글사이트">
+	<img src="google_icon.PNG" width="50" height="50" border="1" title="구글아이콘">
+	<img src="google_icon.PNG" class="google_icon">
+  </a>
+  
+  <hr>
+  
+  <!-- 문단나눔 태그 --> 
+  <p style="background-color:yellow;">
+	html , css 
+  </p>
+  <div style="background-color:pink;">
+  javascript
+  </div>
+  oracle
+  <hr>
+  
+  <!-- 순번이 표기 (ex:1 2 3 ~) -->
+  <ol type="A">
+	<li>html</li>
+	<li>css</li>
+	<li>javascript</li>
+  </ol>
+  <!-- 순번표기 안됨 (동그라미표기) -->
+  <ul type="square">
+	<li>html</li>
+	<li>css</li>
+	<li>javascript</li>
+  </ul> 
+  
+  <hr>
+  javascript&nbsp;&nbsp;&nbsp;jquery&nbsp;mysql 
+  <br><br> 
+  &lt;br&gt; : 엔터기능
+  <br><br> 
+  
+ </body>
+</html>
